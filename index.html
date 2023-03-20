@@ -5,75 +5,130 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu A Fazenda</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 </head>
 <body>
-    Bebidas
-
-    Sucos 	R$ 11,99	
-    Jarra Suco R$ 24,99
-    Limonada Suíça e Suco misto R$ 12,99
-    Refrigerante R$ 11,99
-    Energético R$ 16,99
-    Água R$ 7,99
-    H2O R$ 12,90
-    Citrus R$ 10,99
-    Vinho R$ 11,99
-    Vinho Jarra R$ 24,99
-    Café Expresso R$ 5,99
-    Cervejas 
+  
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title">
+              <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                BEBIDAS
+              </a>
+            </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <ul>
+                <ol>R$ 11,99...Sucos</ol>
+                <ol>R$ 24,99...Jarra Suco</ol>
+                <ol>R$ 12,99...Limonada Suíça e Suco misto</ol>
+                <ol>R$ 11,99...Refrigerante</ol>
+                <ol>R$ 16,99...Energético</ol>
+                <ol>R$ 07,99...Água</ol>
+                <ol>R$ 12,90...H2O</ol>
+                <ol>R$ 10,99...Citrus</ol>
+                <ol>R$ 11,99...Vinho</ol>
+                <ol>R$ 24,99...Vinho Jarra</ol>
+                <ol>R$ 05,99...Café Expresso</ol>
+              </ul>
+           </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                CERVEJAS
+              </a>
+            </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              <ul>
+                <ol>R$ 18,99...Bohemia | Original | Serra Malte</ol>
+                <ol>R$ 18,99...JBrahma | Skol</ol>
+                <ol>R$ 18,99...Malzebier</ol>
+                <ol>R$ 18,99...Itaipava</ol>
+                <ol>R$ 18,99...Itaipava premium</ol>
+                <ol>R$ 18,99...Heineken</ol>
+                <ol>R$ 18,90...Petra</ol>
+                <ol>R$ 18,99...Império</ol>
+                <ol>R$ 12,99...Long Neck: Heineken, Brahma e Brahma Zero</ol>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                CAIPIRINHAS
+              </a>
+            </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              Caipirinha Especial R$ 24,99
+              Caipirinha de Cachaça R$ 24,90
+              Caipiroska R$ 24,99
+              Caipiroska Absolut R$ 29,99
+              Saquerita R$ 24,99
+              Caipirinha de Vinho R$ 24,99
+              Marguerita Prata R$ 24,90
+              Marguerita Ouro R$ 24,90
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFour">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                WHISKY
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+            <div class="panel-body">
+              Chivas Regal R$ 34,90
+              Black Label R$ 23,90
+              Red Label R$ 18,90
+              Ballantines R$ 16,90
+              Passport R$ 14,90              
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingFive">
+            <h4 class="panel-title">
+              <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                DOSES
+              </a>
+            </h4>
+          </div>
+          <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+            <div class="panel-body">
+              Campari R$ 10,50
+              Martini Dry R$ 10,90
+              Domeq R$ 10,90
+              Vodka Importada R$ 19,90
+              Vodka Nacional R$ 12,00
+              Ypióca Ouro R$ 10,90
+              Ypióca Prata R$ 9,90
+              Tequila R$ 12,90
+              Steinhaeger Nacional R$ 12,99
+              Cuba Libre R$ 14,90
+              Licores R$ 26,99
+              (Amarula, Contreu, Drambui, Frangélico, 43, Malibú)
+            </div>
+          </div>
+        </div>
+      </div>
     
-    Bohemia | Original | Serra Malte R$ 18,99
-    Brahma | Skol  R$ 18,99
-    Malzebier R$ 18,99
-    Itaipava R$ 18,99
-    Itaipava premium R$ 18,99
-    Heineken R$ 18,99
-    Petra R$ 18,99
-    Império R$ 18,99
-    Long Neck: Heineken, Brahma e Brahma zero R$ 12,99
-    
-    
-    Caipirinhas
-    
-    Caipirinha Especial R$ 24,99
-    Caipirinha de Cachaça R$ 24,90
-    Caipiroska R$ 24,99
-    Caipiroska Absolut R$ 29,99
-    Saquerita R$ 24,99
-    Caipirinha de Vinho R$ 24,99
-    Marguerita Prata R$ 24,90
-    Marguerita Ouro R$ 24,90
-    
-    
-    Whisky
-    
-    Chivas Regal R$ 34,90
-    Black Label R$ 23,90
-    Red Label R$ 18,90
-    Ballantines R$ 16,90
-    Passport R$ 14,90
-    
-    
-    Doses
-    
-    Campari R$ 10,50
-    Martini Dry R$ 10,90
-    Domeq R$ 10,90
-    Vodka Importada R$ 19,90
-    Vodka Nacional R$ 12,00
-    Ypióca Ouro R$ 10,90
-    Ypióca Prata R$ 9,90
-    Tequila R$ 12,90
-    Steinhaeger Nacional R$ 12,99
-    Cuba Libre R$ 14,90
-    Licores R$ 26,99
-    (Amarula, Contreu, Drambui, Frangélico, 43, Malibú)
-    
-    Coquetel
-    
-    Morango R$ 12,90 
-    Vinho R$ 16,90
-    Coquetel de Smirnoff R$ 19,99
-    
+     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+     <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+     <!-- Include all compiled plugins (below), or include individual files as needed -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
 </body>
 </html>
